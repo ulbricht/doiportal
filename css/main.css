@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+/*
+ulbricht@gfz-potsdam.de this file is a modified version of the reuters.css example from (ajax-solr)
+*/
+
+#wrapper {  
+  margin: 0 auto;
+  overflow: hidden;
+  width: 980px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+#sddbheader h1 {
+  padding:  0px;
+  font-size: 35px;
+  margin-bottom: 40px;
+  letter-spacing: 3px;
+}
+
+
+
+.resultwidgets {
+  float: right;
+  padding: 10px 10px 10px 10px;
+  text-align: justify;
+}
+.resultwidgets h2 {
+  padding: 15px 0 5px 0;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+#result a {
+  margin-right: 5px;
+}
+
+.searchwidgets li {
+  list-style-type: none;
+  display: inline;
+}
+
+#docs {
+  padding-top: 1px;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;	
+}
+#docs div {
+ clear:both;
+}
+#spatial input[type='text']{
+  width:45px
+}
+#spatial input[type='image']{
+  width:30px
+}
+
+#spatial table tr td {
+ padding: 0px
+}
+#spatial .tdmiddle {
+ vertical-align:middle;
+ text-align:center;
+}
+
+.searchwidgets {
+  padding: 0 0 0 0;
+}
+.searchwidgets h2 {
+  clear: left;
+  padding-top: 20px;
+  color: #333;
+  font-size: 16px;
+}
+#search input {
+  width: 210px;
+}
+#search_help {
+  font-size: 80%;
+}
+#searchmap {
+  float:right;
+  position:relative;
+  width:600px;
+  height:308px; 
+  right: 70px;
+}
+
+table {
+  margin-top:0
+}
+#openmap{
+  margin-left:20px
+}
+
+.map {
+  float:left;
+  width:260px;
+  height:180px;
+  margin-right:10px;
+}
+
+.searchselector {
+  width:300px; 
+  float:left
+}
+
+.tagcloud {
+  padding: 5px 5px 0;
+}
+
+.tagcloud_item {
+  float: left;
+  display: block;
+  margin-right: 4px;
+}
+
+
+/* tagcloud */
+
+a.tagcloud_size_0 {
+font-size: 90%;
+}
+a.tagcloud_size_1 {
+font-size: 95%;
+}
+a.tagcloud_size_2 {
+font-size: 105%;
+}
+a.tagcloud_size_3 {
+font-size: 110%;
+}
+a.tagcloud_size_4 {
+font-size: 115%;
+}
+a.tagcloud_size_5 {
+font-size: 120%;
+}
+a.tagcloud_size_6 {
+font-size: 125%;
+}
+a.tagcloud_size_7 {
+font-size: 130%
+}
+a.tagcloud_size_8 {
+font-size: 135%;
+}
+a.tagcloud_size_9 {
+font-size: 140%;
+}
+a.tagcloud_size_10 {
+font-size: 145%;
+}
+
+
